@@ -5,7 +5,7 @@ Activity 간에 값을 주고받기
 
 이 함수로 Activity를 실행하면 실행된 Activity가 종료되면서 아래의 onActivityResult 함수를 호출해준다.
 
-'''java
+'''
 // 액티비티를 실행하는 버튼을 구분하기 위한 플래그
 public static final int BUTTON_START = 99;
 
