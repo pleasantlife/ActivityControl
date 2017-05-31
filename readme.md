@@ -16,6 +16,7 @@ startActivityForResult(intent, BUTTON_RESULT);
 
 ## setResult
 호출되는 SubActivity.class에 작성되는 코드
+
 '''java
 
 Intent intent = new intent(); // 이미 생성된 Activity를 사용하기 때문에 Context를 필요로 하지 않음.
@@ -24,6 +25,7 @@ intent.putExtra("result", "결과값");
 //RESULT_OK는 부모 Activity에 이미 정의되어 있는 플래그값으로 처리가 성공적이라는 것을 의미한다.
 //setResult 함수는 현재 Activity에 Intent를 저장하기 때문에 19번째 줄에서 언급한 것과 같이 Context를 따로 필요로 하지 않는다.
 setResult(RESULT_OK, intent);
+
 '''
 
 ## onActivityResult
